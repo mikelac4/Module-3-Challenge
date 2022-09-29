@@ -125,11 +125,17 @@ function getPasswordOptions() {
   );
 
   // Variable to store boolean regarding the inclusion of numeric characters
-
+  var hasNumericCharacters = confirm(
+    'Click OK to confirm including special characters.'
+  );
   // Variable to store boolean regarding the inclusion of lowercase characters
-
+  var hasLowercaseCharacters = confirm(
+    'Click OK to confirm including special characters.'
+  );
   // Variable to store boolean regarding the inclusion of uppercase characters
-
+  var hasUppercaseCharacters = confirm(
+    'Click OK to confirm including special characters.'
+  );
   // Conditional statement to check if user does not include any types of characters. Password generator ends if all four variables evaluate to false
   // Object to store user input
   var passwordOptions = {
