@@ -141,7 +141,9 @@ function getPasswordOptions() {
   var passwordOptions = {
     length: length,
     hasSpecialCharacters: hasSpecialCharacters,
-    //more options here
+    hasNumericCharacters: hasNumericCharacters,
+    hasLowercaseCharacters: hasLowercaseCharacters,
+    hasUppercaseCharacters: hasUppercaseCharacters,
   };
 
   return passwordOptions;
