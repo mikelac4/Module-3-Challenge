@@ -118,6 +118,11 @@ function getPasswordOptions() {
   }
 
   // Conditional statement to check if password length is less than 128 characters long. Prompts end if this evaluates false
+  if (length < 128) {
+    alert('Password length must be less than 128 characters');
+    return null;
+
+  }
 
   // Variable to store boolean regarding the inclusion of special characters
   var hasSpecialCharacters = confirm(
