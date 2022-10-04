@@ -11,6 +11,7 @@ This program is used to generate a password using Javascript. Array's of special
 ![pass 4](https://user-images.githubusercontent.com/112447725/193719715-08bb9d00-cff7-47b1-89ba-e2a84e54b11f.png)
 ![pass 5](https://user-images.githubusercontent.com/112447725/193719716-58552d65-2604-411a-8790-e59ce10df9dd.png)
 ![pass 6](https://user-images.githubusercontent.com/112447725/193719717-0c34a59d-45a5-45d9-b726-6378d5f72e99.png)
+![pass 7](https://user-images.githubusercontent.com/112447725/193725689-f2ca378e-8f01-460c-88ac-d6f28c2c0f5c.png)
 
 
 ## Links
