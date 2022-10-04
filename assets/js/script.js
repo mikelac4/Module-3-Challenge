@@ -158,14 +158,15 @@ function getPasswordOptions() {
 
 }
 
+// Generates password
 function generatePassword() {
-  // 2)
+  
   var options = getPasswordOptions();
   var result = [];
   var possibleChar = []; 
   var setCharacters = [];
 
- 
+ // Takes the characters from the arrays and groups them together
   if (options.hasSpecialCharacters) {
     possibleChar = possibleChar.concat(specialCharacters)
     setCharacters.push(getRandom(specialCharacters))
@@ -200,7 +201,6 @@ return result.join('');
 }
 // Write password to the #password input
 function writePassword() {
-  // 1)
  
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
